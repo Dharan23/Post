@@ -1,4 +1,4 @@
-package com.codeutility.post.ui
+package com.codeutility.post
 
 import android.app.Application
 import com.codeutility.post.data.network.service.PostService
