@@ -15,8 +15,6 @@ import org.kodein.di.generic.singleton
 
 
 class PostApplication : Application(), KodeinAware {
-
-
     override val kodein = Kodein.lazy {
         import(androidModule(this@PostApplication))
 
@@ -24,5 +22,4 @@ class PostApplication : Application(), KodeinAware {
         bind<PostRepository>() with singleton { PostRepositoryImpl(instance()) }
         bind() from provider { ViewModelProviderFactory(instance()) }
     }
-
 }
