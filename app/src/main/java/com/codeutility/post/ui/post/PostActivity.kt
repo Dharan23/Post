@@ -55,9 +55,9 @@ class PostActivity : ScopedActivity(), KodeinAware {
     }
 
     private fun bindUI() = launch {
-        val posts = viewModel.postLiveData.await()
+        viewModel.getAllPosts()
 
-        posts.observe(this@PostActivity, Observer {
+        viewModel.postLiveData.observe(this@PostActivity, Observer {
             postAdapter.updatePost(it)
         })
     }
