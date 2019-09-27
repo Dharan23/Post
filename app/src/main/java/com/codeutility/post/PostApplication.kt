@@ -16,6 +16,7 @@ import org.kodein.di.generic.singleton
 
 class PostApplication : Application(), KodeinAware {
 
+
     override val kodein = Kodein.lazy {
         import(androidModule(this@PostApplication))
 
