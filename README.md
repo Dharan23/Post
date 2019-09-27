@@ -8,4 +8,10 @@ App Uses Clean MVVM architecture along with
 - ViewModel
 - Repository
 - Room (Database)
+- Retrofit 2
+
+The Post's in this app are fetched from
+
+https://jsonplaceholder.typicode.com/
+
 
