@@ -1,16 +1,13 @@
-package com.codeutility.post.ui.post.comment
+package com.codeutility.post.ui.comment
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.codeutility.post.R
 import com.codeutility.post.data.network.response.Comment
-import com.codeutility.post.data.network.response.Post
 import kotlinx.android.synthetic.main.layout_comment.view.*
-import kotlinx.android.synthetic.main.layout_post.view.*
 
 class CommentAdapter(val listener: (View, Int) -> Unit) :
     RecyclerView.Adapter<CommentAdapter.PostViewHolder>() {

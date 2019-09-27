@@ -2,20 +2,17 @@ package com.codeutility.post.ui.post
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.widget.LinearLayout
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.codeutility.post.R
 import com.codeutility.post.ui.base.ScopedActivity
 import com.codeutility.post.ui.base.ViewModelProviderFactory
-import com.codeutility.post.ui.post.comment.CommentActivity
+import com.codeutility.post.ui.comment.CommentActivity
 import com.codeutility.post.util.showToast
 import kotlinx.android.synthetic.main.activity_post.*
 import kotlinx.coroutines.launch
-import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.closestKodein
 import org.kodein.di.generic.instance

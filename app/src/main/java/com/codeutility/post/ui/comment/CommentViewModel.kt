@@ -1,11 +1,9 @@
-package com.codeutility.post.ui.post.comment
+package com.codeutility.post.ui.comment
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.codeutility.post.data.repository.PostRepository
-import com.codeutility.post.ui.base.CustomLazy
 import kotlinx.coroutines.async
-import kotlinx.coroutines.launch
 
 class CommentViewModel(
     private val postRepository: PostRepository

@@ -25,7 +25,7 @@
         </activity>
 
         <activity
-            android:name=".ui.post.comment.CommentActivity"
+            android:name="com.codeutility.post.ui.comment.CommentActivity"
             android:parentActivityName=".ui.post.PostActivity"
             tools:targetApi="jelly_bean" />
     </application>

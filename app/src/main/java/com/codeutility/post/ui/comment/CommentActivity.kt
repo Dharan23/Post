@@ -1,4 +1,4 @@
-package com.codeutility.post.ui.post.comment
+package com.codeutility.post.ui.comment
 
 import android.os.Bundle
 import android.view.View

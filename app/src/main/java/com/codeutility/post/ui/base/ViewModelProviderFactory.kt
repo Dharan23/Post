@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.codeutility.post.data.repository.PostRepository
 import com.codeutility.post.ui.post.PostViewModel
-import com.codeutility.post.ui.post.comment.CommentViewModel
+import com.codeutility.post.ui.comment.CommentViewModel
 import java.lang.Exception
 
 class ViewModelProviderFactory(
